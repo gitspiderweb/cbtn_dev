@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import About from '@/components/About';
+import Projects from '@/components/Projects';
 import Experience from '@/components/Experience';
 import Footer from '@/components/Footer';
 import Certificate from '@/components/Certificate';
@@ -17,6 +18,7 @@ export default function Home() {
                     <main id="content" className="pt-24 lg:w-[52%] lg:py-24">
                         <About />
                         <Experience />
+                        <Projects />
                         <Education />
                         <Certificate />
                         <Footer />

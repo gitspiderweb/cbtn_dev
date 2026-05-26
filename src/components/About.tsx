@@ -12,28 +12,31 @@ export default function About() {
             </div>
             <div>
                 <p className="mb-4">
-                    I'm a developer and designer passionate about building seamless
+                    I'm a <span className="font-medium text-slate-200">developer and designer</span> passionate about building seamless
                     digital experiences that unite thoughtful design with technical
                     excellence. My work thrives at the crossroads of clean,
-                    accessible web development and visually engaging graphic design,
+                    <span className="font-medium text-slate-200">accessible web development</span> and visually engaging <span className="font-medium text-slate-200">graphic design</span>,
                     where every detail matters for both performance and aesthetics.
                 </p>
                 <p className="mb-4">
                     Currently, I'm a Software Developer at <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://acret-ph.com/" target="_blank" rel="noreferrer noopener">Acret-Philippines Inc.</a>
                     , where I focus on transforming design documents into dynamic,
-                    client-focused websites. I specialize in Drupal CMS—managing
+                    client-focused websites. I specialize in <span className="font-medium text-slate-200">Drupal CMS</span>—managing
                     data, implementing new features, handling robust site traffic,
-                    and extending site functionality with custom PHP modules to meet
+                    and extending site functionality with <span className="font-medium text-slate-200">custom PHP modules</span> to meet
                     unique project requirements.
                 </p>
                 <p className="mb-4">
                     My background spans a range of creative and technical roles, from
-                    designing print-ready templates and e-commerce solutions for
-                    stationery products to developing enterprise web applications.
+                    designing print-ready templates and <span className="font-medium text-slate-200">e-commerce solutions</span> for
+                    stationery products to developing <span className="font-medium text-slate-200">enterprise web applications</span>.
                     Previously, as a Product Setup Engineer at <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://nltd.com/" target="_blank" rel="noreferrer noopener">Northern Lights
-                        Technology Development</a>, I leveraged my expertise in Adobe
-                    InDesign, Illustrator, and Photoshop to create high-quality
+                        Technology Development</a>, I leveraged my expertise in <span className="font-medium text-slate-200">Adobe
+                    InDesign</span>, <span className="font-medium text-slate-200">Illustrator</span>, and <span className="font-medium text-slate-200">Photoshop</span> to create high-quality
                     business collateral.
+                </p>
+                <p className="mb-4">
+                    I actively leverage AI-assisted development tools like <span className="font-medium text-slate-200">GitHub Copilot</span> and <span className="font-medium text-slate-200">Claude</span> to enhance productivity and code quality. I embrace <span className="font-medium text-slate-200">spec-driven development</span> methodologies, ensuring clear requirements and systematic implementation that lead to maintainable, scalable solutions.
                 </p>
                 <p>
                     Outside of work, I'm a fan of a healthy lifestyle and enjoy

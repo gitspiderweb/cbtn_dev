@@ -2,6 +2,8 @@ const navLinks = [
     { href: '#about', label: 'About', isActive: true },
     { href: '#experience', label: 'Experience' },
     { href: '#projects', label: 'Projects' },
+    { href: '#education', label: 'Education' },
+    { href: '#certificate', label: 'Certificate' },
 ];
 
 export default function Navigation() {

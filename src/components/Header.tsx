@@ -7,7 +7,7 @@ export default function Header() {
 
     useEffect(() => {
         const handleScroll = () => {
-            const sections = ['about', 'experience', 'education', 'certificate'];
+            const sections = ['about', 'experience', 'projects', 'education', 'certificate'];
             const sectionElements = sections.map(section =>
                 document.getElementById(section)
             );
@@ -23,7 +23,7 @@ export default function Header() {
             const currentSection = sectionElements.find(element => {
                 if (!element) return false;
                 const rect = element.getBoundingClientRect();
-                return rect.top <= 100 && rect.bottom >= 100;
+                return rect.top <= 200 && rect.bottom >= 200;
             });
 
             if (currentSection) {
@@ -53,7 +53,7 @@ export default function Header() {
                 </p>
                 <nav className="nav hidden lg:block" aria-label="In-page jump links">
                     <ul className="mt-16 w-max">
-                        {['About', 'Experience', 'Education'].map((item) => (
+                        {['About', 'Experience', 'Projects', 'Education'].map((item) => (
                             <li key={item}>
                                 <a
                                     className={`group flex items-center py-3 ${activeSection === item.toLowerCase() ? 'active' : ''
